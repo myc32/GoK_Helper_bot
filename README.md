@@ -14,16 +14,6 @@
 
 ## ⚙️ **Что внутри `config.json`**
 
-Файл `config.json` хранит ключи и настройки:
-```json
-{
-  "spreadsheet_id": "<ID твоего Google Sheets>",
-  "range_name": "Sheet1!A1:E49226",
-  "google_service_account_file": "/путь/к/твоему/google-creds.json",
-  "openai_api_key": "<ТВОЙ_OPENAI_API_KEY>",
-  "telegram_token": "<ТВОЙ_TELEGRAM_BOT_TOKEN>"
-}
-
 
 ## 🚀 Запуск
 1. Создать виртуальное окружение:
@@ -34,4 +24,14 @@ pip install -r requirements.txt
 3. Запустить локально:
 python main.py
 4. Запустить Telegram-бота:
+
+Файл `config.json` хранит ключи и настройки:
+```json
+{
+  "spreadsheet_id": "<ID твоего Google Sheets>",
+  "range_name": "Sheet1!A1:E49226",
+  "google_service_account_file": "/путь/к/твоему/google-creds.json",
+  "openai_api_key": "<ТВОЙ_OPENAI_API_KEY>",
+  "telegram_token": "<ТВОЙ_TELEGRAM_BOT_TOKEN>"
+}
 
