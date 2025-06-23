@@ -1,0 +1,5 @@
+google-api-python-client
+google-auth
+pandas
+openai
+python-telegram-bot==20.0
